@@ -1,0 +1,17 @@
+[
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {
+          "silent_mode": 1
+        },
+        "result": 0
+      },
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/property/set_reply"
+  }
+]

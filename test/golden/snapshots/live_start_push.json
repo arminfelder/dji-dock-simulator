@@ -1,0 +1,17 @@
+[
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": "https://example.invalid/mtx/org-SIMDRONE0000001-80-0-0-normal-0/whip?streamToken=x",
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "live_start_push",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/services_reply"
+  }
+]

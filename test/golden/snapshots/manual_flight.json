@@ -1,0 +1,760 @@
+[
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {},
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "flight_authority_grab",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/services_reply"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "control_source": "A",
+        "home_latitude": 47.263,
+        "home_longitude": 11.401,
+        "low_battery_warning_threshold": 25,
+        "payloads": [
+          {
+            "control_source": "A",
+            "payload_index": "80-0-0",
+            "sn": "SIMDRONE0000001-CAM"
+          }
+        ],
+        "serious_low_battery_warning_threshold": 15
+      },
+      "gateway": "SIMDOCK0000001",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDRONE0000001/state"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {},
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/services_reply"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "flight_id": "takeoff-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.401
+          }
+        ],
+        "remaining_distance": 100.0,
+        "remaining_time": 10.0,
+        "result": 0,
+        "status": "task_ready",
+        "track_id": "track-1760000000",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "flight_id": "takeoff-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.401
+          }
+        ],
+        "remaining_distance": 100.0,
+        "remaining_time": 10.0,
+        "result": 0,
+        "status": "wayline_progress",
+        "track_id": "track-1760000000",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "flight_id": "takeoff-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.401
+          }
+        ],
+        "remaining_distance": 96.0,
+        "remaining_time": 9.6,
+        "result": 0,
+        "status": "wayline_progress",
+        "track_id": "track-1760000000",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "flight_id": "takeoff-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.401
+          }
+        ],
+        "remaining_distance": 92.0,
+        "remaining_time": 9.2,
+        "result": 0,
+        "status": "wayline_progress",
+        "track_id": "track-1760000000",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "flight_id": "takeoff-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.401
+          }
+        ],
+        "remaining_distance": 88.0,
+        "remaining_time": 8.8,
+        "result": 0,
+        "status": "wayline_progress",
+        "track_id": "track-1760000000",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "flight_id": "takeoff-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.401
+          }
+        ],
+        "remaining_distance": 84.0,
+        "remaining_time": 8.4,
+        "result": 0,
+        "status": "wayline_progress",
+        "track_id": "track-1760000000",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "flight_id": "takeoff-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.401
+          }
+        ],
+        "remaining_distance": 80.0,
+        "remaining_time": 8.0,
+        "result": 0,
+        "status": "wayline_progress",
+        "track_id": "track-1760000000",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "flight_id": "takeoff-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.401
+          }
+        ],
+        "remaining_distance": 76.0,
+        "remaining_time": 7.6,
+        "result": 0,
+        "status": "wayline_progress",
+        "track_id": "track-1760000000",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "flight_id": "takeoff-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.401
+          }
+        ],
+        "remaining_distance": 72.0,
+        "remaining_time": 7.2,
+        "result": 0,
+        "status": "wayline_progress",
+        "track_id": "track-1760000000",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "flight_id": "takeoff-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.401
+          }
+        ],
+        "remaining_distance": 56.0,
+        "remaining_time": 5.6,
+        "result": 0,
+        "status": "wayline_progress",
+        "track_id": "track-1760000000",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "flight_id": "takeoff-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.401
+          }
+        ],
+        "remaining_distance": 42.0,
+        "remaining_time": 4.2,
+        "result": 0,
+        "status": "wayline_progress",
+        "track_id": "track-1760000000",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "flight_id": "takeoff-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.401
+          }
+        ],
+        "remaining_distance": 30.0,
+        "remaining_time": 3.0,
+        "result": 0,
+        "status": "wayline_progress",
+        "track_id": "track-1760000000",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "flight_id": "takeoff-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.401
+          }
+        ],
+        "remaining_distance": 20.0,
+        "remaining_time": 2.0,
+        "result": 0,
+        "status": "wayline_progress",
+        "track_id": "track-1760000000",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "flight_id": "takeoff-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.401
+          }
+        ],
+        "remaining_distance": 10.0,
+        "remaining_time": 1.0,
+        "result": 0,
+        "status": "wayline_progress",
+        "track_id": "track-1760000000",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "flight_id": "takeoff-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.401
+          }
+        ],
+        "remaining_distance": 0.0,
+        "remaining_time": 0.0,
+        "result": 0,
+        "status": "wayline_progress",
+        "track_id": "track-1760000000",
+        "way_point_index": 1
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "flight_id": "takeoff-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.401
+          }
+        ],
+        "remaining_distance": 0.0,
+        "remaining_time": 0.0,
+        "result": 0,
+        "status": "wayline_ok",
+        "track_id": "track-1760000000",
+        "way_point_index": 1
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "flight_id": "takeoff-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.401
+          }
+        ],
+        "remaining_distance": 0.0,
+        "remaining_time": 0.0,
+        "result": 0,
+        "status": "task_finish",
+        "track_id": "track-1760000000",
+        "way_point_index": 1
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "takeoff_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {},
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "fly_to_point",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/services_reply"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "fly_to_id": "flyto-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.40166225
+          }
+        ],
+        "remaining_distance": 45.0,
+        "remaining_time": 4.5,
+        "result": 0,
+        "status": "wayline_progress",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "fly_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "fly_to_id": "flyto-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.40166225
+          }
+        ],
+        "remaining_distance": 35.0,
+        "remaining_time": 3.5,
+        "result": 0,
+        "status": "wayline_progress",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "fly_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "fly_to_id": "flyto-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.40166225
+          }
+        ],
+        "remaining_distance": 25.0,
+        "remaining_time": 2.5,
+        "result": 0,
+        "status": "wayline_progress",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "fly_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "fly_to_id": "flyto-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.40166225
+          }
+        ],
+        "remaining_distance": 15.0,
+        "remaining_time": 1.5,
+        "result": 0,
+        "status": "wayline_progress",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "fly_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "fly_to_id": "flyto-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.40166225
+          }
+        ],
+        "remaining_distance": 5.0,
+        "remaining_time": 0.5,
+        "result": 0,
+        "status": "wayline_progress",
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "fly_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "fly_to_id": "flyto-1",
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.40166225
+          }
+        ],
+        "remaining_distance": 0.0,
+        "remaining_time": 0.0,
+        "result": 0,
+        "status": "wayline_ok",
+        "way_point_index": 1
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "fly_to_point_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {},
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "return_home",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/services_reply"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "home_dock_sn": "SIMDOCK0000001",
+        "last_point_type": 0,
+        "multi_dock_home_info": [
+          {
+            "estimated_battery_consumption": 2,
+            "home_distance": 78.1,
+            "plan_status": 3,
+            "sn": "SIMDOCK0000001"
+          }
+        ],
+        "planned_path_points": [
+          {
+            "height": 620.0,
+            "latitude": 47.26353959,
+            "longitude": 11.40166225
+          },
+          {
+            "height": 630.0,
+            "latitude": 47.263,
+            "longitude": 11.401
+          }
+        ]
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "return_home_info",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  }
+]

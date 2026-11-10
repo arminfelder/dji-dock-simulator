@@ -1,0 +1,22 @@
+config.yaml
+.env
+out/
+reference/
+*.log
+.idea/workspace.xml
+.idea/shelf/
+# Sandbox placeholders, not project files.
+.bash_profile
+.bashrc
+.zshrc
+.zprofile
+.profile
+.gitconfig
+.gitmodules
+.mcp.json
+.ripgreprc
+.vscode
+.claude/*
+!.claude/settings.json
+compile_commands.json
+.cache/

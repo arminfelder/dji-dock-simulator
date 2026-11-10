@@ -1,0 +1,224 @@
+{
+  "version": 8,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 30,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "base",
+      "hidden": true,
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/cmake/${presetName}",
+      "cacheVariables": {
+        "CPM_SOURCE_CACHE": "${sourceDir}/out/cpm"
+      }
+    },
+    {
+      "name": "gcc",
+      "hidden": true,
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_C_COMPILER": "gcc",
+        "CMAKE_CXX_COMPILER": "g++"
+      }
+    },
+    {
+      "name": "clang",
+      "hidden": true,
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_C_COMPILER": "clang",
+        "CMAKE_CXX_COMPILER": "clang++"
+      }
+    },
+    {
+      "name": "gcc-debug",
+      "displayName": "GCC debug",
+      "inherits": "gcc",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "DOCKSIM_WARNINGS_AS_ERRORS": "ON"
+      }
+    },
+    {
+      "name": "clang-debug",
+      "displayName": "Clang debug",
+      "inherits": "clang",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "DOCKSIM_WARNINGS_AS_ERRORS": "ON"
+      }
+    },
+    {
+      "name": "asan-ubsan",
+      "displayName": "GCC debug with AddressSanitizer and UBSan",
+      "inherits": "gcc",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_CXX_FLAGS": "-fsanitize=address,undefined -fno-omit-frame-pointer",
+        "CMAKE_C_FLAGS": "-fsanitize=address,undefined -fno-omit-frame-pointer",
+        "CMAKE_EXE_LINKER_FLAGS": "-fsanitize=address,undefined"
+      }
+    },
+    {
+      "name": "gcc-release-static",
+      "displayName": "GCC release, static third-party libs and libstdc++",
+      "inherits": "gcc",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_INTERPROCEDURAL_OPTIMIZATION": "ON",
+        "DOCKSIM_STATIC_RUNTIME": "ON",
+        "DOCKSIM_WARNINGS_AS_ERRORS": "ON",
+        "DOCKSIM_FAST_MATH": "ON"
+      }
+    },
+    {
+      "name": "gcc-release-native",
+      "displayName": "GCC release for this machine's CPU (-march=native), static libs",
+      "inherits": "gcc-release-static",
+      "cacheVariables": {
+        "DOCKSIM_NATIVE_ARCH": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "gcc-debug",
+      "configurePreset": "gcc-debug"
+    },
+    {
+      "name": "clang-debug",
+      "configurePreset": "clang-debug"
+    },
+    {
+      "name": "asan-ubsan",
+      "configurePreset": "asan-ubsan"
+    },
+    {
+      "name": "gcc-release-static",
+      "configurePreset": "gcc-release-static"
+    },
+    {
+      "name": "gcc-release-native",
+      "configurePreset": "gcc-release-native"
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "base",
+      "hidden": true,
+      "output": {
+        "outputOnFailure": true
+      },
+      "execution": {
+        "noTestsAction": "error"
+      },
+      "filter": {
+        "exclude": {
+          "label": "integration"
+        }
+      }
+    },
+    {
+      "name": "gcc-debug",
+      "inherits": "base",
+      "configurePreset": "gcc-debug"
+    },
+    {
+      "name": "clang-debug",
+      "inherits": "base",
+      "configurePreset": "clang-debug"
+    },
+    {
+      "name": "asan-ubsan",
+      "inherits": "base",
+      "configurePreset": "asan-ubsan",
+      "environment": {
+        "LSAN_OPTIONS": "suppressions=${sourceDir}/test/lsan.supp",
+        "UBSAN_OPTIONS": "print_stacktrace=1:halt_on_error=1"
+      }
+    },
+    {
+      "name": "gcc-release-static",
+      "inherits": "base",
+      "configurePreset": "gcc-release-static"
+    },
+    {
+      "name": "gcc-release-native",
+      "inherits": "base",
+      "configurePreset": "gcc-release-native"
+    }
+  ],
+  "workflowPresets": [
+    {
+      "name": "gcc-debug",
+      "steps": [
+        {
+          "type": "configure",
+          "name": "gcc-debug"
+        },
+        {
+          "type": "build",
+          "name": "gcc-debug"
+        },
+        {
+          "type": "test",
+          "name": "gcc-debug"
+        }
+      ]
+    },
+    {
+      "name": "clang-debug",
+      "steps": [
+        {
+          "type": "configure",
+          "name": "clang-debug"
+        },
+        {
+          "type": "build",
+          "name": "clang-debug"
+        },
+        {
+          "type": "test",
+          "name": "clang-debug"
+        }
+      ]
+    },
+    {
+      "name": "gcc-release-static",
+      "steps": [
+        {
+          "type": "configure",
+          "name": "gcc-release-static"
+        },
+        {
+          "type": "build",
+          "name": "gcc-release-static"
+        },
+        {
+          "type": "test",
+          "name": "gcc-release-static"
+        }
+      ]
+    },
+    {
+      "name": "gcc-release-native",
+      "steps": [
+        {
+          "type": "configure",
+          "name": "gcc-release-native"
+        },
+        {
+          "type": "build",
+          "name": "gcc-release-native"
+        },
+        {
+          "type": "test",
+          "name": "gcc-release-native"
+        }
+      ]
+    }
+  ]
+}

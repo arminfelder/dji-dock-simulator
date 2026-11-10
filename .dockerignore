@@ -1,0 +1,13 @@
+out/
+build/
+.git/
+.idea/
+.claude/
+reference/
+*.log
+config.yaml
+.env
+compare_*
+web/node_modules/
+web/dist/
+web/.angular/

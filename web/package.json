@@ -1,0 +1,27 @@
+{
+  "name": "dock-sim-web",
+  "version": "0.1.0",
+  "private": true,
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "start": "ng serve --proxy-config proxy.conf.json",
+    "build": "ng build"
+  },
+  "dependencies": {
+    "@angular/common": "21.2.26",
+    "@angular/compiler": "21.2.26",
+    "@angular/core": "21.2.26",
+    "@angular/forms": "21.2.26",
+    "@angular/platform-browser": "21.2.26",
+    "leaflet": "1.9.4",
+    "rxjs": "7.8.2",
+    "tslib": "2.9.1"
+  },
+  "devDependencies": {
+    "@angular/build": "21.2.29",
+    "@angular/cli": "21.2.29",
+    "@angular/compiler-cli": "21.2.26",
+    "@types/leaflet": "1.9.22",
+    "typescript": "5.9.3"
+  }
+}

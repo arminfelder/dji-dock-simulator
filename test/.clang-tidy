@@ -1,0 +1,4 @@
+InheritParentConfig: true
+# Catch2 TEST_CASE expands to static functions, so every test case would warn.
+# Its CHECK and REQUIRE macros make every test case look complex.
+Checks: '-misc-use-anonymous-namespace,-readability-function-cognitive-complexity'

@@ -1,0 +1,234 @@
+{
+  "subscriptions": [
+    [
+      "thing/product/SIMDOCK0000001/services",
+      1
+    ],
+    [
+      "thing/product/SIMDOCK0000001/requests_reply",
+      1
+    ],
+    [
+      "sys/product/SIMDOCK0000001/status_reply",
+      1
+    ],
+    [
+      "thing/product/SIMDOCK0000001/events_reply",
+      1
+    ],
+    [
+      "thing/product/SIMDOCK0000001/property/set",
+      1
+    ],
+    [
+      "thing/product/SIMDRONE0000001/property/set",
+      1
+    ],
+    [
+      "thing/product/SIMDOCK0000001/state_reply",
+      1
+    ],
+    [
+      "sys/product/SIMDOCK0000001/network/probe",
+      1
+    ]
+  ],
+  "wire": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "config_scope": "product",
+          "config_type": "json"
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "config",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/requests"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "device_secret": "simulator",
+          "domain": "3",
+          "nonce": "<nonce>",
+          "sub_devices": [
+            {
+              "device_secret": "simulator",
+              "domain": "0",
+              "index": "A",
+              "nonce": "<nonce>",
+              "sn": "SIMDRONE0000001",
+              "sub_type": 0,
+              "thing_version": "1.1.0",
+              "type": 91
+            }
+          ],
+          "sub_type": 0,
+          "thing_version": "1.1.0",
+          "type": 2
+        },
+        "method": "update_topo",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "sys/product/SIMDOCK0000001/status"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "compatible_status": true,
+          "firmware_upgrade_status": false,
+          "firmware_version": "14.03.0915"
+        },
+        "gateway": "SIMDOCK0000001",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/state"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "live_capacity": {
+            "available_video_number": 2,
+            "coexist_video_number_max": 2,
+            "device_list": [
+              {
+                "available_video_number": 1,
+                "camera_list": [
+                  {
+                    "available_video_number": 1,
+                    "camera_index": "165-0-7",
+                    "coexist_video_number_max": 1,
+                    "video_list": [
+                      {
+                        "switchable_video_types": [
+                          "normal"
+                        ],
+                        "video_index": "normal-0",
+                        "video_type": "normal"
+                      }
+                    ]
+                  }
+                ],
+                "coexist_video_number_max": 1,
+                "sn": "SIMDOCK0000001"
+              },
+              {
+                "available_video_number": 1,
+                "camera_list": [
+                  {
+                    "available_video_number": 1,
+                    "camera_index": "80-0-0",
+                    "coexist_video_number_max": 1,
+                    "video_list": [
+                      {
+                        "switchable_video_types": [
+                          "normal",
+                          "wide",
+                          "zoom"
+                        ],
+                        "video_index": "normal-0",
+                        "video_type": "normal"
+                      }
+                    ]
+                  }
+                ],
+                "coexist_video_number_max": 1,
+                "sn": "SIMDRONE0000001"
+              }
+            ]
+          }
+        },
+        "gateway": "SIMDOCK0000001",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/state"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "compatible_status": true,
+          "firmware_upgrade_status": false,
+          "firmware_version": "14.03.0915"
+        },
+        "gateway": "SIMDOCK0000001",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDRONE0000001/state"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "control_source": "A",
+          "home_latitude": 47.263,
+          "home_longitude": 11.401,
+          "low_battery_warning_threshold": 25,
+          "payloads": [
+            {
+              "control_source": "A",
+              "payload_index": "80-0-0",
+              "sn": "SIMDRONE0000001-CAM"
+            }
+          ],
+          "serious_low_battery_warning_threshold": 15
+        },
+        "gateway": "SIMDOCK0000001",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDRONE0000001/state"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "devices": [
+            {
+              "sn": "SIMDRONE0000001"
+            },
+            {
+              "sn": "SIMDOCK0000001"
+            }
+          ]
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "airport_bind_status",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/requests"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "module": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "storage_config_get",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/requests"
+    }
+  ]
+}

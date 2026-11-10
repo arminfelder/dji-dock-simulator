@@ -1,0 +1,334 @@
+[
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {},
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "poi_mode_enter",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/services_reply"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "circle_radius": 20.0,
+        "circle_speed": 3.0,
+        "max_circle_speed": 10.0,
+        "reason": 0,
+        "status": "in_progress"
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "poi_status_notify",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "circle_radius": 20.0,
+        "circle_speed": 3.0,
+        "max_circle_speed": 10.0,
+        "reason": 0,
+        "status": "in_progress"
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "poi_status_notify",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {},
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "poi_circle_speed_set",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/services_reply"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "circle_radius": 20.0,
+        "circle_speed": 5.0,
+        "max_circle_speed": 10.0,
+        "reason": 0,
+        "status": "in_progress"
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "poi_status_notify",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "circle_radius": 20.0,
+        "circle_speed": 5.0,
+        "max_circle_speed": 10.0,
+        "reason": 0,
+        "status": "in_progress"
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "poi_status_notify",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {},
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "poi_mode_exit",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/services_reply"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "circle_radius": 0.0,
+        "circle_speed": 0.0,
+        "max_circle_speed": 10.0,
+        "reason": 0,
+        "status": "ok"
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "poi_status_notify",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {},
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "in_flight_wayline_deliver",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/services_reply"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "in_flight_wayline_id": "ifw-1",
+        "progress": {
+          "percent": 0
+        },
+        "result": 0,
+        "status": 1,
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "in_flight_wayline_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "in_flight_wayline_id": "ifw-1",
+        "progress": {
+          "percent": 0
+        },
+        "result": 0,
+        "status": 2,
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "in_flight_wayline_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "in_flight_wayline_id": "ifw-1",
+        "progress": {
+          "percent": 33
+        },
+        "result": 0,
+        "status": 3,
+        "way_point_index": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "in_flight_wayline_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "in_flight_wayline_id": "ifw-1",
+        "progress": {
+          "percent": 66
+        },
+        "result": 0,
+        "status": 3,
+        "way_point_index": 1
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "in_flight_wayline_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "in_flight_wayline_id": "ifw-1",
+        "progress": {
+          "percent": 100
+        },
+        "result": 0,
+        "status": 3,
+        "way_point_index": 2
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "in_flight_wayline_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "in_flight_wayline_id": "ifw-1",
+        "progress": {
+          "percent": 100
+        },
+        "result": 0,
+        "status": 6,
+        "way_point_index": 2
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "in_flight_wayline_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {},
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "return_home",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/services_reply"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "home_dock_sn": "SIMDOCK0000001",
+        "last_point_type": 0,
+        "multi_dock_home_info": [
+          {
+            "estimated_battery_consumption": 2,
+            "home_distance": 134.4,
+            "plan_status": 3,
+            "sn": "SIMDOCK0000001"
+          }
+        ],
+        "planned_path_points": [
+          {
+            "height": 625.0,
+            "latitude": 47.264,
+            "longitude": 11.402
+          },
+          {
+            "height": 640.0,
+            "latitude": 47.263,
+            "longitude": 11.401
+          }
+        ]
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "return_home_info",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  }
+]

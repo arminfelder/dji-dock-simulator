@@ -1,0 +1,3 @@
+# The NVIDIA CUDA driver, which FFmpeg opens to probe NVENC, leaks one
+# condition variable through the old glibc compat symbol.
+leak:__pthread_cond_broadcast_2_0

@@ -1,0 +1,39 @@
+:root {
+  --bg: #0f1418;
+  --panel: #161d23;
+  --panel2: #1f2930;
+  --line: #2a363f;
+  --fg: #dce3e8;
+  --muted: #7d8c97;
+  --accent: #4fc3f7;
+  --good: #66bb6a;
+  --bad: #ef5350;
+  --mono: ui-monospace, 'JetBrains Mono', 'Fira Code', monospace;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); font: 13px/1.4 system-ui, sans-serif; }
+h3 { margin: 0 0 6px; font-size: 14px; }
+h4 { margin: 14px 0 4px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+dl { display: grid; grid-template-columns: 80px 1fr; gap: 2px 8px; margin: 0; }
+dt { color: var(--muted); }
+dd { margin: 0; }
+button {
+  background: var(--panel2); color: var(--fg); border: 1px solid var(--line); border-radius: 4px;
+  padding: 4px 10px; cursor: pointer; font: inherit;
+}
+button:hover:not(:disabled) { border-color: var(--accent); }
+button:disabled { opacity: 0.4; cursor: not-allowed; }
+button.active, button.primary { background: var(--accent); color: #000; border-color: var(--accent); }
+button.danger { background: var(--bad); color: #fff; border-color: var(--bad); }
+input, select { background: var(--panel2); color: var(--fg); border: 1px solid var(--line); border-radius: 4px; padding: 3px 6px; font: inherit; }
+input[type='range'] { padding: 0; accent-color: var(--accent); }
+.muted { color: var(--muted); }
+.good { color: var(--good); }
+.bad { color: var(--bad); }
+code { font-family: var(--mono); }
+.dock-icon div {
+  background: #263238; color: #fff; border: 2px solid var(--accent); border-radius: 4px;
+  font: 600 10px/16px system-ui; text-align: center;
+}
+.drone-icon .arrow { color: #ffb300; font-size: 22px; line-height: 24px; text-align: center; text-shadow: 0 0 3px #000; }

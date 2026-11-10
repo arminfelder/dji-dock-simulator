@@ -1,0 +1,260 @@
+[
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "air_conditioner": {
+          "air_conditioner_state": 0,
+          "switch_time": 0
+        },
+        "alarm_state": 0,
+        "battery_store_mode": 1,
+        "cover_state": 0,
+        "drone_charge_state": {
+          "capacity_percent": 100,
+          "state": 0
+        },
+        "drone_in_dock": 1,
+        "emergency_stop_state": 0,
+        "environment_temperature": "<weather>",
+        "height": 580.0,
+        "humidity": "<weather>",
+        "latitude": 47.263,
+        "longitude": 11.401,
+        "mode_code": 0,
+        "network_state": {
+          "quality": 4,
+          "rate": 12.5,
+          "type": 2
+        },
+        "position_state": {
+          "gps_number": 18,
+          "is_calibration": 1,
+          "quality": 5,
+          "rtk_number": 22
+        },
+        "putter_state": 0,
+        "rainfall": 0,
+        "storage": {
+          "total": 64000000,
+          "used": 1200000
+        },
+        "sub_device": {
+          "device_model_key": "0-91-0",
+          "device_online_status": 1,
+          "device_paired": 1,
+          "device_sn": "SIMDRONE0000001"
+        },
+        "supplement_light_state": 0,
+        "temperature": "<weather>",
+        "wind_speed": "<weather>"
+      },
+      "gateway": "SIMDOCK0000001",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 0,
+    "topic": "thing/product/SIMDOCK0000001/osd"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "drc_state": 0,
+        "flighttask_prepare_capacity": 1,
+        "flighttask_step_code": 255,
+        "media_file_detail": {
+          "remain_upload": 0
+        },
+        "wireless_link": {
+          "4g_freq_band": 2.4999,
+          "4g_gnd_quality": 5,
+          "4g_link_state": 1,
+          "4g_quality": 5,
+          "4g_uav_quality": 5,
+          "dongle_number": 1,
+          "link_workmode": 0,
+          "sdr_freq_band": 2.4999,
+          "sdr_link_state": 1,
+          "sdr_quality": 5
+        }
+      },
+      "gateway": "SIMDOCK0000001",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 0,
+    "topic": "thing/product/SIMDOCK0000001/osd"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "acc_time": 1800000,
+        "activation_time": 1700000000,
+        "backup_battery": {
+          "switch": 1,
+          "temperature": 27.9,
+          "voltage": 26631
+        },
+        "drone_battery_maintenance_info": {
+          "maintenance_state": 0,
+          "maintenance_time_left": 0
+        },
+        "electric_supply_voltage": 230,
+        "job_number": 0,
+        "working_current": 1120,
+        "working_voltage": 25440
+      },
+      "gateway": "SIMDOCK0000001",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 0,
+    "topic": "thing/product/SIMDOCK0000001/osd"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "80-0-0": {
+          "gimbal_pitch": -90.0,
+          "gimbal_roll": 0.0,
+          "gimbal_yaw": 0.0,
+          "payload_index": "80-0-0",
+          "zoom_factor": 7.0
+        },
+        "attitude_head": 0.0,
+        "attitude_pitch": 0.0,
+        "attitude_roll": 0.0,
+        "battery": {
+          "batteries": [
+            {
+              "capacity_percent": 100,
+              "firmware_version": "01.00.00.00",
+              "high_voltage_storage_days": 4,
+              "index": 0,
+              "loop_times": 42,
+              "sn": "SIMDRONE0000001-BAT",
+              "temperature": 26.0,
+              "voltage": 24800
+            }
+          ],
+          "capacity_percent": 100,
+          "landing_power": 15,
+          "remain_flight_time": 1500,
+          "return_home_power": 30
+        },
+        "cameras": [
+          {
+            "camera_mode": 0,
+            "ir_metering_area": {
+              "aver_temperature": 18.5,
+              "height": 0.5,
+              "max_temperature_point": {
+                "temperature": 24.0,
+                "x": 0.5,
+                "y": 0.5
+              },
+              "min_temperature_point": {
+                "temperature": 16.0,
+                "x": 0.25,
+                "y": 0.25
+              },
+              "width": 0.5,
+              "x": 0.25,
+              "y": 0.25
+            },
+            "ir_metering_mode": 0,
+            "ir_metering_point": {
+              "temperature": 18.0,
+              "x": 0.5,
+              "y": 0.5
+            },
+            "ir_zoom_factor": 1.0,
+            "payload_index": "80-0-0",
+            "photo_state": 0,
+            "photo_storage_settings": [
+              "current"
+            ],
+            "record_time": 0,
+            "recording_state": 0,
+            "remain_photo_num": 4096,
+            "remain_record_duration": 3600,
+            "remain_upload": 0,
+            "screen_split_enable": false,
+            "thermal_supported_palette_styles": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              8,
+              11,
+              12,
+              13
+            ],
+            "video_storage_settings": [
+              "current"
+            ],
+            "wide_aperture_value": 0,
+            "wide_calibrate_farthest_focus_value": 34,
+            "wide_calibrate_nearest_focus_value": 64,
+            "wide_exposure_mode": 1,
+            "wide_exposure_value": 16,
+            "wide_focus_mode": 1,
+            "wide_focus_state": 0,
+            "wide_focus_value": 40,
+            "wide_iso": 0,
+            "wide_max_focus_value": 64,
+            "wide_min_focus_value": 33,
+            "wide_shutter_speed": 60,
+            "zoom_aperture_value": 0,
+            "zoom_calibrate_farthest_focus_value": 34,
+            "zoom_calibrate_nearest_focus_value": 64,
+            "zoom_exposure_mode": 1,
+            "zoom_exposure_value": 16,
+            "zoom_factor": 7.0,
+            "zoom_focus_mode": 1,
+            "zoom_focus_state": 0,
+            "zoom_focus_value": 40,
+            "zoom_iso": 0,
+            "zoom_max_focus_value": 64,
+            "zoom_min_focus_value": 33,
+            "zoom_shutter_speed": 60
+          }
+        ],
+        "elevation": 0.0,
+        "firmware_version": "14.03.0915",
+        "gear": 1,
+        "height": 580.0,
+        "home_distance": 0.0,
+        "home_latitude": 47.263,
+        "home_longitude": 11.401,
+        "horizontal_speed": 0.0,
+        "latitude": 47.263,
+        "longitude": 11.401,
+        "mode_code": 0,
+        "position_state": {
+          "gps_number": 19,
+          "is_fixed": 2,
+          "quality": 5,
+          "rtk_number": 24
+        },
+        "storage": {
+          "total": 128000000,
+          "used": 4000000
+        },
+        "total_flight_distance": 0.0,
+        "total_flight_time": 0,
+        "vertical_speed": 0.0
+      },
+      "gateway": "SIMDOCK0000001",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 0,
+    "topic": "thing/product/SIMDRONE0000001/osd"
+  }
+]

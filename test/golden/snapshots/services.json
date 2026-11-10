@@ -1,0 +1,3123 @@
+{
+  "air_conditioner_mode_switch": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 514153
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "air_conditioner_mode_switch",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "alarm_state_switch": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "status": "ok"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "alarm_state_switch",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "battery_maintenance_switch": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "status": "ok"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "battery_maintenance_switch",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "battery_store_mode_switch": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "status": "ok"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "battery_store_mode_switch",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "camera_aim": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "camera_aim",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "camera_exposure_mode_set": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "camera_exposure_mode_set",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "camera_exposure_set": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "camera_exposure_set",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "camera_focal_length_set": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "camera_focal_length_set",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "camera_focus_mode_set": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "camera_focus_mode_set",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "camera_focus_value_set": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "camera_focus_value_set",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "camera_look_at": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "camera_look_at",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "camera_mode_switch": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "camera_mode_switch",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "camera_photo_stop": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "camera_photo_stop",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "camera_photo_take": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "camera_photo_take",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "ext": {
+              "camera_mode": 0
+            },
+            "progress": {
+              "current_step": 0,
+              "percent": 100
+            },
+            "status": "ok"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "camera_photo_take_progress",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "module": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "storage_config_get",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/requests"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "file": {
+            "cloud_to_cloud_id": "DEFAULT",
+            "ext": {
+              "drone_model_key": "0-91-0",
+              "flight_id": "c82cc001-0000-4000-8000-000000000001",
+              "is_original": true,
+              "payload_model_key": "1-80-0"
+            },
+            "metadata": {
+              "absolute_altitude": 580.0,
+              "created_time": "2025-10-09T08:53:20+00:00",
+              "gimbal_yaw_degree": 21.3,
+              "relative_altitude": 0.0,
+              "shoot_position": {
+                "lat": 47.263,
+                "lng": 11.401
+              }
+            },
+            "name": "DJI_c82cc001_0001.jpeg",
+            "object_key": "org-1/DJI_c82cc001_0001.jpeg",
+            "path": "c82cc001-0000-4000-8000-000000000001"
+          },
+          "flight_task": {
+            "expected_file_count": 1,
+            "flight_type": 0,
+            "uploaded_file_count": 1
+          },
+          "progress": 100,
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "file_upload_callback",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    }
+  ],
+  "camera_point_focus_action": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "camera_point_focus_action",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "camera_recording_start": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "camera_recording_start",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "camera_recording_stop": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "camera_recording_stop",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "camera_screen_drag": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "camera_screen_drag",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "camera_screen_split": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "camera_screen_split",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "charge_close": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "charge_close",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 1,
+              "percent": 0,
+              "step_key": "get_bid",
+              "step_result": 0,
+              "total_steps": 4
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "charge_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 2,
+              "percent": 25,
+              "step_key": "check_work_mode",
+              "step_result": 0,
+              "total_steps": 4
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "charge_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 3,
+              "percent": 50,
+              "step_key": "check_task_state",
+              "step_result": 0,
+              "total_steps": 4
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "charge_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 4,
+              "percent": 75,
+              "step_key": "stop_charge",
+              "step_result": 0,
+              "total_steps": 4
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "charge_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 4,
+              "percent": 100,
+              "step_key": "stop_charge",
+              "step_result": 0,
+              "total_steps": 4
+            },
+            "status": "ok"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "charge_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    }
+  ],
+  "charge_open": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "charge_open",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 1,
+              "percent": 0,
+              "step_key": "get_bid",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "charge_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 2,
+              "percent": 20,
+              "step_key": "check_work_mode",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "charge_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 3,
+              "percent": 40,
+              "step_key": "check_task_state",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "charge_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 4,
+              "percent": 60,
+              "step_key": "check_scram_state",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "charge_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 5,
+              "percent": 80,
+              "step_key": "start_charge",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "charge_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 5,
+              "percent": 100,
+              "step_key": "start_charge",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "ok"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "charge_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    }
+  ],
+  "cover_close": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_close",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 1,
+              "percent": 0,
+              "step_key": "get_bid",
+              "step_result": 0,
+              "total_steps": 9
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 2,
+              "percent": 11,
+              "step_key": "check_work_mode",
+              "step_result": 0,
+              "total_steps": 9
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 3,
+              "percent": 22,
+              "step_key": "check_task_state",
+              "step_result": 0,
+              "total_steps": 9
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 4,
+              "percent": 33,
+              "step_key": "check_scram_state",
+              "step_result": 0,
+              "total_steps": 9
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 5,
+              "percent": 44,
+              "step_key": "turn_on_drone",
+              "step_result": 0,
+              "total_steps": 9
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 6,
+              "percent": 55,
+              "step_key": "drone_paddle_forward",
+              "step_result": 0,
+              "total_steps": 9
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 7,
+              "percent": 66,
+              "step_key": "drone_paddle_reverse",
+              "step_result": 0,
+              "total_steps": 9
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 8,
+              "percent": 77,
+              "step_key": "drone_paddle_stop",
+              "step_result": 0,
+              "total_steps": 9
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 9,
+              "percent": 88,
+              "step_key": "close_cover",
+              "step_result": 0,
+              "total_steps": 9
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 9,
+              "percent": 100,
+              "step_key": "close_cover",
+              "step_result": 0,
+              "total_steps": 9
+            },
+            "status": "ok"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    }
+  ],
+  "cover_force_close": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_force_close",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 1,
+              "percent": 0,
+              "step_key": "get_bid",
+              "step_result": 0,
+              "total_steps": 8
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_force_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 2,
+              "percent": 12,
+              "step_key": "check_work_mode",
+              "step_result": 0,
+              "total_steps": 8
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_force_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 3,
+              "percent": 25,
+              "step_key": "check_scram_state",
+              "step_result": 0,
+              "total_steps": 8
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_force_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 4,
+              "percent": 37,
+              "step_key": "drone_paddle_forward",
+              "step_result": 0,
+              "total_steps": 8
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_force_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 5,
+              "percent": 50,
+              "step_key": "drone_paddle_reverse",
+              "step_result": 0,
+              "total_steps": 8
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_force_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 6,
+              "percent": 62,
+              "step_key": "drone_paddle_stop",
+              "step_result": 0,
+              "total_steps": 8
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_force_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 7,
+              "percent": 75,
+              "step_key": "close_cover",
+              "step_result": 0,
+              "total_steps": 8
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_force_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 8,
+              "percent": 87,
+              "step_key": "check_task_state",
+              "step_result": 0,
+              "total_steps": 8
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_force_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 8,
+              "percent": 100,
+              "step_key": "check_task_state",
+              "step_result": 0,
+              "total_steps": 8
+            },
+            "status": "ok"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_force_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    }
+  ],
+  "cover_open": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_open",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 1,
+              "percent": 0,
+              "step_key": "get_bid",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 2,
+              "percent": 20,
+              "step_key": "check_work_mode",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 3,
+              "percent": 40,
+              "step_key": "check_task_state",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 4,
+              "percent": 60,
+              "step_key": "check_scram_state",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 5,
+              "percent": 80,
+              "step_key": "open_cover",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 5,
+              "percent": 100,
+              "step_key": "open_cover",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "ok"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "cover_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    }
+  ],
+  "debug_mode_close": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "status": "ok"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "debug_mode_close",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "debug_mode_open": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "status": "ok"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "debug_mode_open",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "device_reboot": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "device_reboot",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 1,
+              "percent": 0,
+              "step_key": "get_bid",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "device_reboot",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 2,
+              "percent": 20,
+              "step_key": "upgrading_prevent_reboot",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "device_reboot",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 3,
+              "percent": 40,
+              "step_key": "check_work_mode",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "device_reboot",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 4,
+              "percent": 60,
+              "step_key": "check_task_state",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "device_reboot",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 5,
+              "percent": 80,
+              "step_key": "write_reboot_param_file",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "device_reboot",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 5,
+              "percent": 100,
+              "step_key": "write_reboot_param_file",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "ok"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "device_reboot",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "device_secret": "simulator",
+          "domain": "3",
+          "nonce": "<nonce>",
+          "sub_devices": [],
+          "sub_type": 0,
+          "thing_version": "1.1.0",
+          "type": 2
+        },
+        "method": "update_topo",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "sys/product/SIMDOCK0000001/status"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "device_secret": "simulator",
+          "domain": "3",
+          "nonce": "<nonce>",
+          "sub_devices": [
+            {
+              "device_secret": "simulator",
+              "domain": "0",
+              "index": "A",
+              "nonce": "<nonce>",
+              "sn": "SIMDRONE0000001",
+              "sub_type": 0,
+              "thing_version": "1.1.0",
+              "type": 91
+            }
+          ],
+          "sub_type": 0,
+          "thing_version": "1.1.0",
+          "type": 2
+        },
+        "method": "update_topo",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "sys/product/SIMDOCK0000001/status"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "compatible_status": true,
+          "firmware_upgrade_status": false,
+          "firmware_version": "14.03.0915"
+        },
+        "gateway": "SIMDOCK0000001",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/state"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "live_capacity": {
+            "available_video_number": 2,
+            "coexist_video_number_max": 2,
+            "device_list": [
+              {
+                "available_video_number": 1,
+                "camera_list": [
+                  {
+                    "available_video_number": 1,
+                    "camera_index": "165-0-7",
+                    "coexist_video_number_max": 1,
+                    "video_list": [
+                      {
+                        "switchable_video_types": [
+                          "normal"
+                        ],
+                        "video_index": "normal-0",
+                        "video_type": "normal"
+                      }
+                    ]
+                  }
+                ],
+                "coexist_video_number_max": 1,
+                "sn": "SIMDOCK0000001"
+              },
+              {
+                "available_video_number": 1,
+                "camera_list": [
+                  {
+                    "available_video_number": 1,
+                    "camera_index": "80-0-0",
+                    "coexist_video_number_max": 1,
+                    "video_list": [
+                      {
+                        "switchable_video_types": [
+                          "normal",
+                          "wide",
+                          "zoom"
+                        ],
+                        "video_index": "normal-0",
+                        "video_type": "normal"
+                      }
+                    ]
+                  }
+                ],
+                "coexist_video_number_max": 1,
+                "sn": "SIMDRONE0000001"
+              }
+            ]
+          }
+        },
+        "gateway": "SIMDOCK0000001",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/state"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "compatible_status": true,
+          "firmware_upgrade_status": false,
+          "firmware_version": "14.03.0915"
+        },
+        "gateway": "SIMDOCK0000001",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDRONE0000001/state"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "control_source": "A",
+          "home_latitude": 47.263,
+          "home_longitude": 11.401,
+          "low_battery_warning_threshold": 25,
+          "payloads": [
+            {
+              "control_source": "A",
+              "payload_index": "80-0-0",
+              "sn": "SIMDRONE0000001-CAM"
+            }
+          ],
+          "serious_low_battery_warning_threshold": 15
+        },
+        "gateway": "SIMDOCK0000001",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDRONE0000001/state"
+    }
+  ],
+  "drone_close": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "drone_close",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 1,
+              "percent": 0,
+              "step_key": "get_bid",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "drone_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 2,
+              "percent": 20,
+              "step_key": "check_work_mode",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "drone_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 3,
+              "percent": 40,
+              "step_key": "check_task_state",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "drone_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 4,
+              "percent": 60,
+              "step_key": "check_scram_state",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "drone_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 5,
+              "percent": 80,
+              "step_key": "close_drone",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "drone_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 5,
+              "percent": 100,
+              "step_key": "close_drone",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "ok"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "drone_close",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    }
+  ],
+  "drone_open": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "drone_open",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 1,
+              "percent": 0,
+              "step_key": "get_bid",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "drone_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 2,
+              "percent": 20,
+              "step_key": "check_work_mode",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "drone_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 3,
+              "percent": 40,
+              "step_key": "check_task_state",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "drone_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 4,
+              "percent": 60,
+              "step_key": "check_scram_state",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "drone_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 5,
+              "percent": 80,
+              "step_key": "open_drone",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "in_progress"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "drone_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "progress": {
+              "current_step": 5,
+              "percent": 100,
+              "step_key": "open_drone",
+              "step_result": 0,
+              "total_steps": 5
+            },
+            "status": "ok"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "drone_open",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    }
+  ],
+  "fileupload_list": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "files": [
+              {
+                "device_sn": "SIMDRONE0000001",
+                "list": [
+                  {
+                    "boot_index": 3,
+                    "end_time": 1760000000,
+                    "size": 2280,
+                    "start_time": 1759913660
+                  },
+                  {
+                    "boot_index": 2,
+                    "end_time": 1759913600,
+                    "size": 2280,
+                    "start_time": 1759827260
+                  },
+                  {
+                    "boot_index": 1,
+                    "end_time": 1759827200,
+                    "size": 2280,
+                    "start_time": 1759740860
+                  }
+                ],
+                "module": "0",
+                "result": 0
+              },
+              {
+                "device_sn": "SIMDOCK0000001",
+                "list": [
+                  {
+                    "boot_index": 3,
+                    "end_time": 1760000000,
+                    "size": 2080,
+                    "start_time": 1759913660
+                  },
+                  {
+                    "boot_index": 2,
+                    "end_time": 1759913600,
+                    "size": 2080,
+                    "start_time": 1759827260
+                  },
+                  {
+                    "boot_index": 1,
+                    "end_time": 1759827200,
+                    "size": 2080,
+                    "start_time": 1759740860
+                  }
+                ],
+                "module": "3",
+                "result": 0
+              }
+            ]
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "fileupload_list",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "flight_areas_update": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "flight_areas_update",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {},
+        "gateway": "SIMDOCK0000001",
+        "method": "flight_areas_get",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/requests"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "file": {
+            "checksum": "3cdcd355b50d340d059ecd5c4826ca741fc2142d0f2e1d85a5f4778fb2031cda",
+            "name": "areas.json"
+          },
+          "reason": 0,
+          "result": 0,
+          "status": "synchronizing"
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "flight_areas_sync_progress",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "file": {
+            "checksum": "3cdcd355b50d340d059ecd5c4826ca741fc2142d0f2e1d85a5f4778fb2031cda",
+            "name": "areas.json"
+          },
+          "reason": 0,
+          "result": 0,
+          "status": "synchronized"
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "flight_areas_sync_progress",
+        "need_reply": 1,
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/events"
+    }
+  ],
+  "flight_authority_grab": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "flight_authority_grab",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "control_source": "A",
+          "home_latitude": 47.263,
+          "home_longitude": 11.401,
+          "low_battery_warning_threshold": 25,
+          "payloads": [
+            {
+              "control_source": "A",
+              "payload_index": "80-0-0",
+              "sn": "SIMDRONE0000001-CAM"
+            }
+          ],
+          "serious_low_battery_warning_threshold": 15
+        },
+        "gateway": "SIMDOCK0000001",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDRONE0000001/state"
+    }
+  ],
+  "flighttask_create": [],
+  "flighttask_execute": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "result": 514003
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "flighttask_execute",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "flighttask_pause": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "result": 514005
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "flighttask_pause",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "flighttask_recovery": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "result": 514005
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "flighttask_recovery",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "flighttask_stop": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "flighttask_stop",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "flighttask_undo": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "flighttask_undo",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "fly_to_point": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 319022
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "fly_to_point",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "fly_to_point_stop": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "fly_to_point_stop",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "fly_to_point_update": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 319022
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "fly_to_point_update",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "gimbal_reset": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "gimbal_reset",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "in_flight_wayline_cancel": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 321259
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "in_flight_wayline_cancel",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "in_flight_wayline_deliver": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 314000
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "in_flight_wayline_deliver",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "in_flight_wayline_recover": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 319042
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "in_flight_wayline_recover",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "in_flight_wayline_stop": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 319020
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "in_flight_wayline_stop",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "ir_metering_area_set": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "ir_metering_area_set",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "ir_metering_mode_set": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "ir_metering_mode_set",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "ir_metering_point_set": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "ir_metering_point_set",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "live_camera_change": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "live_camera_change",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "live_lens_change": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "live_lens_change",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "live_set_quality": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "live_set_quality",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "live_stop_push": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "live_stop_push",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "no_such_method": [],
+  "osd_after": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "air_conditioner": {
+            "air_conditioner_state": 0,
+            "switch_time": 0
+          },
+          "alarm_state": 1,
+          "battery_store_mode": 2,
+          "cover_state": 0,
+          "drone_charge_state": {
+            "capacity_percent": 100,
+            "state": 0
+          },
+          "drone_in_dock": 1,
+          "emergency_stop_state": 0,
+          "environment_temperature": "<weather>",
+          "height": 580.0,
+          "humidity": "<weather>",
+          "latitude": 47.263,
+          "longitude": 11.401,
+          "mode_code": 0,
+          "network_state": {
+            "quality": 4,
+            "rate": 12.5,
+            "type": 2
+          },
+          "position_state": {
+            "gps_number": 18,
+            "is_calibration": 1,
+            "quality": 5,
+            "rtk_number": 22
+          },
+          "putter_state": 0,
+          "rainfall": 0,
+          "storage": {
+            "total": 64000000,
+            "used": 1200000
+          },
+          "sub_device": {
+            "device_model_key": "0-91-0",
+            "device_online_status": 0,
+            "device_paired": 1,
+            "device_sn": "SIMDRONE0000001"
+          },
+          "supplement_light_state": 0,
+          "temperature": "<weather>",
+          "wind_speed": "<weather>"
+        },
+        "gateway": "SIMDOCK0000001",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 0,
+      "topic": "thing/product/SIMDOCK0000001/osd"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "drc_state": 0,
+          "flighttask_prepare_capacity": 1,
+          "flighttask_step_code": 255,
+          "media_file_detail": {
+            "remain_upload": 0
+          },
+          "wireless_link": {
+            "4g_freq_band": 2.4999,
+            "4g_gnd_quality": 5,
+            "4g_link_state": 1,
+            "4g_quality": 5,
+            "4g_uav_quality": 5,
+            "dongle_number": 1,
+            "link_workmode": 1,
+            "sdr_freq_band": 2.4999,
+            "sdr_link_state": 1,
+            "sdr_quality": 5
+          }
+        },
+        "gateway": "SIMDOCK0000001",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 0,
+      "topic": "thing/product/SIMDOCK0000001/osd"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "acc_time": 1800000,
+          "activation_time": 1700000000,
+          "backup_battery": {
+            "switch": 1,
+            "temperature": 27.9,
+            "voltage": 26631
+          },
+          "drone_battery_maintenance_info": {
+            "maintenance_state": 1,
+            "maintenance_time_left": 0
+          },
+          "electric_supply_voltage": 230,
+          "job_number": 0,
+          "working_current": 1120,
+          "working_voltage": 25440
+        },
+        "gateway": "SIMDOCK0000001",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 0,
+      "topic": "thing/product/SIMDOCK0000001/osd"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "80-0-0": {
+            "gimbal_pitch": -90.0,
+            "gimbal_roll": 0.0,
+            "gimbal_yaw": 21.3,
+            "payload_index": "80-0-0",
+            "zoom_factor": 12.0
+          },
+          "attitude_head": 21.3,
+          "attitude_pitch": 0.0,
+          "attitude_roll": 0.0,
+          "battery": {
+            "batteries": [
+              {
+                "capacity_percent": 100,
+                "firmware_version": "01.00.00.00",
+                "high_voltage_storage_days": 4,
+                "index": 0,
+                "loop_times": 42,
+                "sn": "SIMDRONE0000001-BAT",
+                "temperature": 26.0,
+                "voltage": 24800
+              }
+            ],
+            "capacity_percent": 100,
+            "landing_power": 15,
+            "remain_flight_time": 1500,
+            "return_home_power": 30
+          },
+          "cameras": [
+            {
+              "camera_mode": 0,
+              "ir_metering_area": {
+                "aver_temperature": 18.5,
+                "height": 0.4,
+                "max_temperature_point": {
+                  "temperature": 24.0,
+                  "x": 0.25,
+                  "y": 0.4
+                },
+                "min_temperature_point": {
+                  "temperature": 16.0,
+                  "x": 0.1,
+                  "y": 0.2
+                },
+                "width": 0.3,
+                "x": 0.1,
+                "y": 0.2
+              },
+              "ir_metering_mode": 1,
+              "ir_metering_point": {
+                "temperature": 18.0,
+                "x": 0.3,
+                "y": 0.7
+              },
+              "ir_zoom_factor": 1.0,
+              "payload_index": "80-0-0",
+              "photo_state": 0,
+              "photo_storage_settings": [
+                "current",
+                "ir"
+              ],
+              "record_time": 0,
+              "recording_state": 0,
+              "remain_photo_num": 4095,
+              "remain_record_duration": 3600,
+              "remain_upload": 0,
+              "screen_split_enable": true,
+              "thermal_supported_palette_styles": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                11,
+                12,
+                13
+              ],
+              "video_storage_settings": [
+                "wide",
+                "zoom"
+              ],
+              "wide_aperture_value": 0,
+              "wide_calibrate_farthest_focus_value": 34,
+              "wide_calibrate_nearest_focus_value": 64,
+              "wide_exposure_mode": 1,
+              "wide_exposure_value": 16,
+              "wide_focus_mode": 0,
+              "wide_focus_state": 0,
+              "wide_focus_value": 50,
+              "wide_iso": 0,
+              "wide_max_focus_value": 64,
+              "wide_min_focus_value": 33,
+              "wide_shutter_speed": 60,
+              "zoom_aperture_value": 0,
+              "zoom_calibrate_farthest_focus_value": 34,
+              "zoom_calibrate_nearest_focus_value": 64,
+              "zoom_exposure_mode": 4,
+              "zoom_exposure_value": 18,
+              "zoom_factor": 12.0,
+              "zoom_focus_mode": 1,
+              "zoom_focus_state": 2,
+              "zoom_focus_value": 40,
+              "zoom_iso": 0,
+              "zoom_max_focus_value": 64,
+              "zoom_min_focus_value": 33,
+              "zoom_shutter_speed": 60
+            }
+          ],
+          "elevation": 0.0,
+          "firmware_version": "14.03.0915",
+          "gear": 1,
+          "height": 580.0,
+          "home_distance": 0.0,
+          "home_latitude": 47.263,
+          "home_longitude": 11.401,
+          "horizontal_speed": 0.0,
+          "latitude": 47.263,
+          "longitude": 11.401,
+          "mode_code": 0,
+          "position_state": {
+            "gps_number": 19,
+            "is_fixed": 2,
+            "quality": 5,
+            "rtk_number": 24
+          },
+          "storage": {
+            "total": 128000000,
+            "used": 4000000
+          },
+          "total_flight_distance": 0.0,
+          "total_flight_time": 0,
+          "vertical_speed": 0.0
+        },
+        "gateway": "SIMDOCK0000001",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 0,
+      "topic": "thing/product/SIMDRONE0000001/osd"
+    }
+  ],
+  "payload_authority_grab": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "payload_authority_grab",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    },
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "control_source": "A",
+          "home_latitude": 47.263,
+          "home_longitude": 11.401,
+          "low_battery_warning_threshold": 25,
+          "payloads": [
+            {
+              "control_source": "A",
+              "payload_index": "80-0-0",
+              "sn": "SIMDRONE0000001-CAM"
+            }
+          ],
+          "serious_low_battery_warning_threshold": 15
+        },
+        "gateway": "SIMDOCK0000001",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDRONE0000001/state"
+    }
+  ],
+  "photo_storage_set": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "photo_storage_set",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "poi_circle_speed_set": [],
+  "poi_mode_enter": [],
+  "poi_mode_exit": [],
+  "return_home": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "return_home",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "return_home_cancel": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "return_home_cancel",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "sdr_workmode_switch": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "status": "ok"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "sdr_workmode_switch",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "speaker_tts_play_start": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 314000
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "speaker_tts_play_start",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "supplement_light_close": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "status": "ok"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "supplement_light_close",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "supplement_light_open": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "status": "ok"
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "supplement_light_open",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "unlock_license_list": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {
+            "consistence": true,
+            "device_model_domain": 3,
+            "licenses": []
+          },
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "unlock_license_list",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "upload_flighttask_media_prioritize": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "upload_flighttask_media_prioritize",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ],
+  "video_storage_set": [
+    {
+      "payload": {
+        "bid": "<bid>",
+        "data": {
+          "output": {},
+          "result": 0
+        },
+        "gateway": "SIMDOCK0000001",
+        "method": "video_storage_set",
+        "tid": "<tid>",
+        "timestamp": 0
+      },
+      "qos": 1,
+      "topic": "thing/product/SIMDOCK0000001/services_reply"
+    }
+  ]
+}

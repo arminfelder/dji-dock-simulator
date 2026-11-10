@@ -1,0 +1,47 @@
+# Turned off on purpose:
+# - missing-std-forward: callables that are called more than once must not be forwarded.
+# - constant-array-index, c-arrays, reinterpret-cast, array-to-pointer-decay: byte views and
+#   buffers for C APIs (FFmpeg, Vulkan, curl, stb, Paho) and the OpenCL-style CPU kernel.
+# - non-private-member-variables-in-classes: as misc-, plain data structs are intended.
+# - no-recursion: YAML, JSON and tile trees are walked recursively on purpose.
+# - avoid-nested-conditional-operator: the hits are short, formatted selection chains.
+Checks: >
+  -*,
+  bugprone-*,
+  -bugprone-easily-swappable-parameters,
+  clang-analyzer-*,
+  cppcoreguidelines-*,
+  -cppcoreguidelines-avoid-magic-numbers,
+  -cppcoreguidelines-pro-bounds-pointer-arithmetic,
+  -cppcoreguidelines-avoid-do-while,
+  misc-*,
+  -misc-include-cleaner,
+  -misc-non-private-member-variables-in-classes,
+  modernize-*,
+  -modernize-use-trailing-return-type,
+  performance-*,
+  readability-*,
+  -readability-magic-numbers,
+  -readability-identifier-length,
+  -readability-braces-around-statements,
+  -cppcoreguidelines-avoid-const-or-ref-data-members,
+  -readability-math-missing-parentheses,
+  -cppcoreguidelines-missing-std-forward,
+  -cppcoreguidelines-pro-bounds-constant-array-index,
+  -cppcoreguidelines-avoid-c-arrays,
+  -modernize-avoid-c-arrays,
+  -cppcoreguidelines-pro-type-reinterpret-cast,
+  -cppcoreguidelines-pro-bounds-array-to-pointer-decay,
+  -cppcoreguidelines-non-private-member-variables-in-classes,
+  -misc-no-recursion,
+  -readability-avoid-nested-conditional-operator
+WarningsAsErrors: ''
+HeaderFilterRegex: '(lib|apps|test)/.*'
+# Third-party sources in the CPM cache and build trees.
+ExcludeHeaderFilterRegex: '.*/out/.*'
+FormatStyle: file
+CheckOptions:
+  # The functions above 40 (config convert, rt meshes trees and buildings, osm rasterize) are
+  # the ones to split; a lower bar mostly reports long but linear code.
+  readability-function-cognitive-complexity.Threshold: 40
+  readability-function-cognitive-complexity.IgnoreMacros: true

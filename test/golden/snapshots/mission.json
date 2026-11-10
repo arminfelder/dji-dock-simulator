@@ -1,0 +1,474 @@
+[
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {
+          "ext": {
+            "current_waypoint_index": 0,
+            "flight_id": "f-1",
+            "media_count": 0,
+            "track_id": "track-1760000000",
+            "wayline_id": 0,
+            "wayline_mission_state": 2
+          },
+          "progress": {
+            "current_step": 17,
+            "percent": 100
+          },
+          "status": "sent"
+        },
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "flighttask_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "flighttask_prepare",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/services_reply"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "flighttask_prepare",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/services_reply"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "flighttask_execute",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/services_reply"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {
+          "ext": {
+            "current_waypoint_index": 0,
+            "flight_id": "f-1",
+            "media_count": 0,
+            "track_id": "track-1760000000",
+            "wayline_id": 0,
+            "wayline_mission_state": 4
+          },
+          "progress": {
+            "current_step": 6,
+            "percent": 0
+          },
+          "status": "in_progress"
+        },
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "flighttask_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {
+          "ext": {
+            "current_waypoint_index": 0,
+            "flight_id": "f-1",
+            "media_count": 0,
+            "track_id": "track-1760000000",
+            "wayline_id": 0,
+            "wayline_mission_state": 4
+          },
+          "progress": {
+            "current_step": 7,
+            "percent": 30
+          },
+          "status": "in_progress"
+        },
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "flighttask_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {
+          "ext": {
+            "current_waypoint_index": 0,
+            "flight_id": "f-1",
+            "media_count": 0,
+            "track_id": "track-1760000000",
+            "wayline_id": 0,
+            "wayline_mission_state": 4
+          },
+          "progress": {
+            "current_step": 23,
+            "percent": 60
+          },
+          "status": "in_progress"
+        },
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "flighttask_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {
+          "ext": {
+            "current_waypoint_index": 0,
+            "flight_id": "f-1",
+            "media_count": 0,
+            "track_id": "track-1760000000",
+            "wayline_id": 0,
+            "wayline_mission_state": 5
+          },
+          "progress": {
+            "current_step": 24,
+            "percent": 0
+          },
+          "status": "in_progress"
+        },
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "flighttask_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {
+          "ext": {
+            "current_waypoint_index": 0,
+            "flight_id": "f-1",
+            "media_count": 1,
+            "track_id": "track-1760000000",
+            "wayline_id": 0,
+            "wayline_mission_state": 6
+          },
+          "progress": {
+            "current_step": 24,
+            "percent": 33
+          },
+          "status": "in_progress"
+        },
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "flighttask_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {
+          "ext": {
+            "current_waypoint_index": 1,
+            "flight_id": "f-1",
+            "media_count": 1,
+            "track_id": "track-1760000000",
+            "wayline_id": 0,
+            "wayline_mission_state": 6
+          },
+          "progress": {
+            "current_step": 24,
+            "percent": 66
+          },
+          "status": "in_progress"
+        },
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "flighttask_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {
+          "ext": {
+            "current_waypoint_index": 2,
+            "flight_id": "f-1",
+            "media_count": 2,
+            "track_id": "track-1760000000",
+            "wayline_id": 0,
+            "wayline_mission_state": 6
+          },
+          "progress": {
+            "current_step": 24,
+            "percent": 100
+          },
+          "status": "in_progress"
+        },
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "flighttask_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {
+          "ext": {
+            "current_waypoint_index": 2,
+            "flight_id": "f-1",
+            "media_count": 2,
+            "track_id": "track-1760000000",
+            "wayline_id": 0,
+            "wayline_mission_state": 9
+          },
+          "progress": {
+            "current_step": 27,
+            "percent": 100
+          },
+          "status": "in_progress"
+        },
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "flighttask_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {
+          "ext": {
+            "current_waypoint_index": 0,
+            "flight_id": "f-1",
+            "media_count": 2,
+            "track_id": "track-1760000000",
+            "wayline_id": 0,
+            "wayline_mission_state": 9
+          },
+          "progress": {
+            "current_step": 28,
+            "percent": 100
+          },
+          "status": "in_progress"
+        },
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "flighttask_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "output": {
+          "ext": {
+            "current_waypoint_index": 2,
+            "flight_id": "f-1",
+            "media_count": 2,
+            "track_id": "track-1760000000",
+            "wayline_id": 0,
+            "wayline_mission_state": 9
+          },
+          "progress": {
+            "current_step": 35,
+            "percent": 100
+          },
+          "status": "ok"
+        },
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "flighttask_progress",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "module": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "storage_config_get",
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/requests"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "file": {
+          "cloud_to_cloud_id": "DEFAULT",
+          "ext": {
+            "drone_model_key": "0-91-0",
+            "flight_id": "f-1",
+            "is_original": true,
+            "payload_model_key": "1-80-0"
+          },
+          "metadata": {
+            "absolute_altitude": 620.0,
+            "created_time": "2025-10-09T08:53:20+00:00",
+            "gimbal_yaw_degree": 0.0,
+            "relative_altitude": 40.0,
+            "shoot_position": {
+              "lat": 47.2635,
+              "lng": 11.401
+            }
+          },
+          "name": "DJI_f-1_0001.jpeg",
+          "object_key": "org-1/DJI_f-1_0001.jpeg",
+          "path": "f-1"
+        },
+        "flight_task": {
+          "expected_file_count": 2,
+          "flight_type": 0,
+          "uploaded_file_count": 1
+        },
+        "progress": 100,
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "file_upload_callback",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  },
+  {
+    "payload": {
+      "bid": "<bid>",
+      "data": {
+        "file": {
+          "cloud_to_cloud_id": "DEFAULT",
+          "ext": {
+            "drone_model_key": "0-91-0",
+            "flight_id": "f-1",
+            "is_original": true,
+            "payload_model_key": "1-80-0"
+          },
+          "metadata": {
+            "absolute_altitude": 625.0,
+            "created_time": "2025-10-09T08:53:20+00:00",
+            "gimbal_yaw_degree": 90.0,
+            "relative_altitude": 45.0,
+            "shoot_position": {
+              "lat": 47.264,
+              "lng": 11.402
+            }
+          },
+          "name": "DJI_f-1_0002.jpeg",
+          "object_key": "org-1/DJI_f-1_0002.jpeg",
+          "path": "f-1"
+        },
+        "flight_task": {
+          "expected_file_count": 2,
+          "flight_type": 0,
+          "uploaded_file_count": 2
+        },
+        "progress": 100,
+        "result": 0
+      },
+      "gateway": "SIMDOCK0000001",
+      "method": "file_upload_callback",
+      "need_reply": 1,
+      "tid": "<tid>",
+      "timestamp": 0
+    },
+    "qos": 1,
+    "topic": "thing/product/SIMDOCK0000001/events"
+  }
+]

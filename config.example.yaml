@@ -1,0 +1,152 @@
+# dock-sim configuration. Values equal the defaults unless a comment says otherwise.
+# Unknown keys are reported at start and have no effect.
+
+broker:
+  host: tcp.cloud.example.com
+  port: 8883
+  tls: true
+  # CA certificate of a broker whose certificate comes from a private CA.
+  # Trust the CA, not the leaf. Without the CA file, set insecure: true.
+  ca_file: null
+  insecure: false
+  username: null      # set here, or use --login to get it from the backend
+  password: null
+  qos: 1              # the real dock uses QoS 1 on every topic except osd (QoS 0)
+
+http:
+  # The backend serves its API under the /server path.
+  base_url: https://cloud.example.com/server
+  auth_path: /auth
+  org_path: /org/current
+  username: null      # platform account e-mail, for --login
+  password: null
+  verify_tls: true
+  ca_file: null
+
+organization:
+  bind_on_start: true
+  organization_id: null   # --login fills this from /org/current
+  binding_code: null
+  dock_callsign: Simulated Dock
+  drone_callsign: Simulated Drone
+
+device:
+  dock_sn: SIMDOCK0000001
+  drone_sn: SIMDRONE0000001
+  dock_model: dock2        # dock1, dock2 or dock3
+  drone_model: m3d         # m30, m30t, m3d or m3td
+  thing_version: "1.1.0"
+  firmware_version: "14.03.0915"        # Dock 2 release 14.03.0915
+  dock_firmware_version: "14.03.0915"   # dock main module v66.04.03.00
+  drone_firmware_version: "14.03.0915"  # M3D main module v66.04.03.01
+  device_secret: simulator
+  # PEM text of the RSA public key that signs Cloud API app licenses. Not in
+  # this repository. Without it, the simulator accepts every license and logs a
+  # warning. Environment: DOCKSIM_DEVICE__LICENSE_KEY.
+  # license_key: |
+  #   -----BEGIN PUBLIC KEY-----
+  #   ...
+  #   -----END PUBLIC KEY-----
+  latitude: 47.263
+  longitude: 11.401
+  altitude: 580.0
+  channel_index: A
+
+telemetry:
+  dock_osd_interval: 1.0
+  drone_osd_interval: 0.5
+  state_interval: 30.0
+
+flight:
+  speed: 10.0
+  climb_rate: 4.0
+  takeoff_altitude: 30.0
+  tick: 0.04               # motion step; 25 Hz matches the live feed (0.5 makes the video hop)
+  prepare_seconds: 6.0
+  land_seconds: 8.0
+
+# Remote debug, firmware update, device logs, custom flight areas and HMS.
+# Durations are seconds.
+maintenance:
+  job_duration: 4.0         # remote-debug job (cover, putter, charge, aircraft power, format): reply to end
+  reboot_duration: 60.0     # device_reboot: the dock stays offline for this time
+  ota_duration: 30.0        # ota_create: download and update, then the new firmware_version
+  log_step_duration: 1.0    # fileupload_start: each step (pull, compress, upload) of each log file
+  sync_flight_areas_on_start: true   # ask for the custom flight areas once after going online
+  flight_area_report_interval: 5.0   # flight_areas_drone_location while the aircraft flies
+  hms_interval: 30.0        # send the hms list again after this time; 0 = once after start
+  # HMS alarms that the dock reports. Empty = no alarm. Example:
+  #   - {code: "0x16100083", level: 2, module: 3, device: drone, in_the_sky: false,
+  #      imminent: true, component_index: 0, sensor_index: 0}
+  # level: 0 notification, 1 reminder, 2 warning.
+  # module: 0 flight task, 1 device management, 2 media, 3 hms.
+  # device: dock or drone.
+  hms: []
+
+media:
+  enabled: true
+  upload_delay: 60
+  endpoint_override: null   # set when the STS endpoint is not reachable from here
+  verify_tls: true
+  image_size: [2000, 1500]
+  renderer: imagery         # imagery | synthetic
+  # Orthophoto tiles. The default basemap.at layer covers Austria only.
+  imagery_url: "https://mapsneu.wien.gv.at/basemap/bmaporthofoto30cm/normal/google3857/{z}/{y}/{x}.jpeg"
+  imagery_max_zoom: 19
+  dem_url: "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
+  dem_zoom: 14
+  dem_near_zoom: 15         # finer terrain within dem_near_radius of the camera; 0 = off
+  dem_near_radius: 1500
+  cache_dir: ~/.cache/dock_sim/tiles
+  render_device: auto       # cpu | auto | rt; rt = Vulkan ray tracing (RTX, RDNA2+, Arc)
+                            # auto = rt on a GPU with ray queries, else the CPU kernels
+  rt_allow_cpu: false       # rt only: accept the Mesa lavapipe CPU device (slow, for tests)
+  gpu_device: null          # part of the Vulkan device name, e.g. Arc, Radeon, NVIDIA
+  buildings: true           # OpenStreetMap footprints, extruded; fetched from Overpass, cached in cache_dir
+  building_default_height: 8.0   # metres, when OSM has neither height nor building:levels
+  building_level_height: 3.0
+  building_default_style: classic  # undated residential facades: classic (19th century block) | modern
+  building_scan: true       # rt only: roofs from the BEV laser scan (Austria) near the camera
+  building_scan_radius: 1500
+  building_radius: 1000     # metres around the camera that show buildings
+  building_far_radius: 3000 # coarse ring beyond that, out to the skyline; 0 = off
+  building_far_resolution: 3.0  # metres per cell of the far ring
+  building_heights: {}      # metres per OSM way/relation id, e.g. {263795490: 55.0}
+                            # a dock on a roof: set device.altitude to terrain + this height
+  shadows: true             # sun shadows of terrain and buildings (fast on GPU, ~2x slower on CPU)
+  # Sun position for photos and the live feed. null = real time.
+  # "19:30" = today at 19:30 in lighting_timezone; or a full ISO time, e.g. "2026-12-21T15:30:00+01:00".
+  lighting_time: null
+  lighting_timezone: Europe/Vienna
+  supersample: 2            # photos on the GPU, see live.supersample
+  lighting_frozen: false    # false: clock runs on from lighting_time; true: sun stays put
+
+live:
+  enabled: true
+  fps: 25
+  size: 1280x720
+  bitrate: 6M              # below ~4M at 720p the aerial picture shows H.264 blocks
+  snapshot_dir: null       # save the raw rendered frame here every 30 s, for quality checks
+  overlay: true            # burn the video_id, clock and pose into the picture
+  source: render           # render: camera view from the media.* tiles | pattern: colour bars
+  render_workers: 8        # render threads per feed
+  supersample: 2           # GPU only: 2 = 4 rays per pixel, smooth building edges; 1 = off
+  march_scale: null        # CPU only: coarse march grid divisor; null = 4
+  encoder: software        # software (openh264) or nvenc (NVIDIA GPU)
+  # WebRTC only. Set these two only if a media server announces an address that the network does not carry. They replace
+  # the address in the answer.
+  candidate_host: null
+  candidate_port: null
+
+weather:
+  max_wind_takeoff: 12.0     # m/s; at this wind and more the dock refuses to launch (514135)
+  max_rainfall_takeoff: 3    # 1 light, 2 moderate, 3 heavy; at this rain and more: 514134
+
+api:                         # instructor REST API and web UI
+  enabled: true
+  bind: 127.0.0.1            # 0.0.0.0 to reach it from other hosts; then set a token
+  port: 8080                 # 0 takes any free port
+  token: null                # set: every /api request needs "Authorization: Bearer <token>"
+  web_root: null             # null: <exe>/../share/dock-sim/web, then web/dist in the source tree
+
+log_level: INFO
